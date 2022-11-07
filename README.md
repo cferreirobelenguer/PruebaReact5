@@ -29,3 +29,6 @@
 ## Crear un componente que sea llamado en App.js
 ## Crear dentro del componente dos botones uno que muestre como vista título 1 y otro que muestre título 2
 ## Al pulsar uno u otro botón cambia el renderizado y se muestra título 1 o título 2
+
+### En función del botón que se apriete se muestra Título 1 o Título 2
+![image](https://user-images.githubusercontent.com/88061350/200404103-56ba3d71-b973-4e04-85e7-63484aa880b1.png)
