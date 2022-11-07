@@ -1,6 +1,5 @@
 # EJERCICIO REACT
 
-# EJERCICIO 1 TRABAJANDO CON PROPS Y EVENTOS
 ## 1. Crear un componente
 ## 2. Recibir una prop con el año actual
 ## 3. Ojo, usar funciones para sacar el año
@@ -8,8 +7,22 @@
 ##  - Pasar al proximo año
 ##  - Ir al año anterior
 ##  - Mostrar en todo momento el año por pantalla
-## Validar que el año sea un número y que sea requerido (prop)
+## Validar que el año introducido en el input es number
 ## Cambiar el año mediante un input de texto y que se cambie dinámicamente
+
+
+### Recibe el año actual
+![image](https://user-images.githubusercontent.com/88061350/200380201-7d496326-7ede-4e34-b5a8-496545946aee.png)
+
+### Si se pulsa next o previous se incremente o decrementa el año
+![image](https://user-images.githubusercontent.com/88061350/200380376-d42cd873-a708-41b5-84d0-6b0f945164b2.png)
+
+### Si se pone un dato en el input que sea numérico se actualiza el año en caso contrario no muestra nada
+![image](https://user-images.githubusercontent.com/88061350/200380524-a0986a17-cb4c-49e5-8aad-08101532a8d6.png)
+
+### Si se pulsa en actual year se vuelve al año actual
+![image](https://user-images.githubusercontent.com/88061350/200380700-874b7634-efff-4f9f-94de-408adcd9d153.png)
+
 
 # EJERCICIO 2 TRABAJANDO CON RENDERIZADO CONDICIONAL
 
