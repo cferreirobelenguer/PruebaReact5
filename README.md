@@ -32,3 +32,11 @@
 
 ### En función del botón que se apriete se muestra Título 1 o Título 2
 ![image](https://user-images.githubusercontent.com/88061350/200404103-56ba3d71-b973-4e04-85e7-63484aa880b1.png)
+
+
+## EJERCICIO 3 TRABAJAR PROPS, STATE Y EVENTOS
+
+## Pasar desde el componente App a otro componente creado una variable contador que se inicializa a 20
+## En el componente creado crear tres botones uno de incremento del contador, otro decremento, y otro reset que vuelve a inicializar la variable a 20
+
+
