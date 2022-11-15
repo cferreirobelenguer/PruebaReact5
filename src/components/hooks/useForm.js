@@ -24,8 +24,7 @@ export const useForm=(initialForm={})=>{
     }
     const handlerReset=()=>{
         setData({
-            name:"",
-            email:""
+            initialForm
         })
     }
     return{
