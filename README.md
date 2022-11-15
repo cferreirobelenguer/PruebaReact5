@@ -65,3 +65,9 @@
 ## Crear un custom hook useFetch que pueda utilizarse en cualquier otro componente de peticiones api, pasando la url por parámetro
 ## Crear métodos de paginación dentro del custom hook e implementar en el componente la paginación
 ## Crear un searchBar que busque por id la página que queremos mostrar de datos
+
+![image](https://user-images.githubusercontent.com/88061350/201926794-225f4709-3a35-42c8-bda3-d335cbd3f28e.png)
+
+![image](https://user-images.githubusercontent.com/88061350/201926845-d9348f3a-48fb-47b9-b3be-76731ae9e882.png)
+
+

@@ -1,5 +1,5 @@
 import React from 'react'
-import {useForm} from '../components/hooks/useForm'
+import {useForm} from './hooks/index'
 
 
 

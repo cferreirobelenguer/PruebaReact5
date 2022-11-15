@@ -1,5 +1,7 @@
 import React from 'react'
-import {useFetch} from './hooks/useFetch'
+import {useFetch} from './hooks/index'
+import Data from './Data'
+import { LoadingQuote } from './LoadingQuote'
 
 export const ApiBreakingBad=()=>{
     const {data,isLoading,hasError,previousQuote,nextQuote,handlerChange}=useFetch("https://www.breakingbadapi.com/api/quotes/")
@@ -8,33 +10,8 @@ export const ApiBreakingBad=()=>{
         <>
             <h1>api breaking bad</h1>
             <hr></hr>
-            {isLoading===false && 
-            <>
-                <div>
-                    <input type="number" onChange={handlerChange}></input>
-                </div>
-                <div>
-                    <h2>{data[0].quote}</h2>
-                </div>
-                <div>
-                    <h3>{data[0].author}</h3>
-                </div>
-                <div>
-                    <h4>{data[0].series}</h4>
-                </div>
-                <button onClick={previousQuote}>Anterior</button>
-                <button onClick={nextQuote}>Siguiente</button>
-                
-            </>
-            }
-            {isLoading &&
-            <>
-                <div>
-                    <h1>Cargando...</h1>
-                </div>
-                
-            </>
-            }
+            {isLoading===false && <Data datos={data} change={handlerChange} siguiente={nextQuote} anterior={previousQuote}></Data>}
+            {isLoading && <LoadingQuote></LoadingQuote>}
             <hr></hr>
         </>
     )
