@@ -4,7 +4,7 @@ export const InputRef=()=>{
     const nameRef=useRef()
     const handlerFocus=()=>{
         console.log("pongo el foco")
-        nameRef.current.focus()
+        nameRef.current.select()
     }
     return(
         <>  

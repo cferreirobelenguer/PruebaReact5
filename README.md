@@ -74,3 +74,5 @@
 ## EJERCICIO 6 PONER EL FOCO EN UN INPUT
 
 ## Poner el foco en un input que pide el nombre a través de useRef
+
+![image](https://user-images.githubusercontent.com/88061350/201964311-5a93ccfd-ea89-45c5-89b0-3db51ce9d116.png)
