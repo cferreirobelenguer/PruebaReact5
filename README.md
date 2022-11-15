@@ -1,4 +1,6 @@
-# EJERCICIO REACT
+# EJERCICIOS DE REACT
+
+## EJERCICIO REACT
 
 ## 1. Crear un componente
 ## 2. Recibir una prop con el año actual
@@ -24,7 +26,7 @@
 ![image](https://user-images.githubusercontent.com/88061350/200380700-874b7634-efff-4f9f-94de-408adcd9d153.png)
 
 
-# EJERCICIO 2 TRABAJANDO CON RENDERIZADO CONDICIONAL
+## EJERCICIO 2 TRABAJANDO CON RENDERIZADO CONDICIONAL
 
 ## Crear un componente que sea llamado en App.js
 ## Crear dentro del componente dos botones uno que muestre como vista título 1 y otro que muestre título 2
@@ -59,3 +61,6 @@
 ![image](https://user-images.githubusercontent.com/88061350/201892089-300f391d-dd38-4e58-9fac-38d657fb62f4.png)
 
 
+## EJERCICIO 5 CONSULTAR API BREAKING BAD
+## Crear un custom hook useFetch que pueda utilizarse en cualquier otro componente de peticiones api, pasando la url por parámetro
+## Crear métodos de paginación dentro del custom hook e implementar en el componente la paginación
