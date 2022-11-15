@@ -3,6 +3,7 @@ import Year from './components/Year'
 import Title from './components/Title'
 import {useState} from 'react'
 import Contador from './components/Contador'
+import Formulario from './components/Formulario';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Title/>
       <Contador contador={counter}>
       </Contador>
+      <Formulario></Formulario>
 
     </div>
   );
