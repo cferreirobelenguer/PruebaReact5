@@ -10,8 +10,7 @@ export const ApiBreakingBad=()=>{
         <>
             <h1>api breaking bad</h1>
             <hr></hr>
-            {isLoading===false && <Data datos={data} change={handlerChange} siguiente={nextQuote} anterior={previousQuote}></Data>}
-            {isLoading && <LoadingQuote></LoadingQuote>}
+            {isLoading ?<LoadingQuote></LoadingQuote>:<Data datos={data} change={handlerChange} siguiente={nextQuote} anterior={previousQuote}></Data>}
             <hr></hr>
         </>
     )
