@@ -1,11 +1,8 @@
 
 import {useState} from 'react'
 
-export const useForm=()=>{
-    const [data,setData]=useState({
-        name:"",
-        email:""
-    })
+export const useForm=(initialForm={})=>{
+    const [data,setData]=useState(initialForm)
 
     const handlerName=(e)=>{
         console.log("input name "+e.target.value)

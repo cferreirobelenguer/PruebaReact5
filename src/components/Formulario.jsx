@@ -4,7 +4,10 @@ import {useForm} from '../components/hooks/useForm'
 
 
 const Formulario=()=>{
-    const {data,handlerSubmit,handlerName,handlerEmail, handlerReset}=useForm()
+    const {data,handlerSubmit,handlerName,handlerEmail, handlerReset}=useForm({
+        name:"",
+        email:""
+    })
     
     return(
         <div>

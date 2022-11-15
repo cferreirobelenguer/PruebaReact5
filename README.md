@@ -54,3 +54,8 @@
 ### Crear un formulario y meter toda su funcionalidad en un custom hook llamado useForm
 ### Crear botón reset cuya funcionalidad también esté en el custom hook y que cuando se pulse resetee los valores del state
 
+![image](https://user-images.githubusercontent.com/88061350/201892408-6713cca0-2c28-426c-818c-215d718e1f35.png)
+
+![image](https://user-images.githubusercontent.com/88061350/201892089-300f391d-dd38-4e58-9fac-38d657fb62f4.png)
+
+
