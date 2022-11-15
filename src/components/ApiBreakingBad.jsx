@@ -2,7 +2,7 @@ import React from 'react'
 import {useFetch} from './hooks/useFetch'
 
 export const ApiBreakingBad=()=>{
-    const {data,isLoading,hasError,previousQuote,nextQuote}=useFetch("https://www.breakingbadapi.com/api/quotes/")
+    const {data,isLoading,hasError,previousQuote,nextQuote,handlerChange}=useFetch("https://www.breakingbadapi.com/api/quotes/")
     
     return(
         <>
@@ -10,7 +10,9 @@ export const ApiBreakingBad=()=>{
             <hr></hr>
             {isLoading===false && 
             <>
-
+                <div>
+                    <input type="number" onChange={handlerChange}></input>
+                </div>
                 <div>
                     <h2>{data[0].quote}</h2>
                 </div>

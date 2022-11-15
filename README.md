@@ -64,3 +64,4 @@
 ## EJERCICIO 5 CONSULTAR API BREAKING BAD
 ## Crear un custom hook useFetch que pueda utilizarse en cualquier otro componente de peticiones api, pasando la url por parámetro
 ## Crear métodos de paginación dentro del custom hook e implementar en el componente la paginación
+## Crear un searchBar que busque por id la página que queremos mostrar de datos
