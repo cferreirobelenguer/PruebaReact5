@@ -5,6 +5,7 @@ import {useState} from 'react'
 import Contador from './components/Contador'
 import Formulario from './components/Formulario';
 import ApiBreakingBad from './components/ApiBreakingBad';
+import { InputRef } from './components/InputRef';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       </Contador>
       <Formulario></Formulario>
       <ApiBreakingBad></ApiBreakingBad>
-
+      <InputRef></InputRef>
     </div>
   );
 }
