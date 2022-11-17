@@ -1,10 +1,9 @@
 import React,{useEffect} from 'react'
-import { useDataDardevil } from './hooks/useDataDardevil'
-
+import { useData } from './hooks/useData'
 
 const Daredevil=()=>{
     
-    const {data, searchData}=useDataDardevil()
+    const {data, searchData}=useData('Daredevil')
 
     useEffect(()=>{
         searchData()

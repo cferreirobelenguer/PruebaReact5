@@ -90,6 +90,13 @@ npm install react-router-dom
 ## Superman muestra los datos de superman
 ## Daredevil muestra los datos de Daredevil
 ## Todos los componentes deben tener un botón de retorno al home
+## Crear un custom hook useData que coja los datos de heroes y busque los datos a imprimir de cada componente en función de la ruta
 
+### Componente home 
 
+![image](https://user-images.githubusercontent.com/88061350/202554213-0c36733a-ad7a-4db7-a474-e4e0301ebaa3.png)
+
+### Componente Superman, se muestran los datos de heroes.js; así como en Batman y Daredevil
+
+![image](https://user-images.githubusercontent.com/88061350/202554417-33b051e1-fb5d-4e18-95b0-125307fda99a.png)
 

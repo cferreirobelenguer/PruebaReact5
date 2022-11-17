@@ -1,6 +1,7 @@
 import { useEffect, useState} from "react"
 
 export const useFetch=(url)=>{
+    //Se coge la url por parámetro
     const [state,setState]=useState({
         data:null,
         isLoading:true,
@@ -9,7 +10,7 @@ export const useFetch=(url)=>{
     const [count, setCount]=useState(1)
     const [id, setId]=useState(1)
 
-    //método que hace la llamada a la api
+    //método que hace la llamada a la api cada vez que se pulsa siguiente o anterior en la paginación
     const sendData=async()=>{
         setState({
             ...state,
@@ -26,7 +27,7 @@ export const useFetch=(url)=>{
         })
     }
 
-    //método que hace la llamada a la api
+    //método que hace la llamada a la api cuando se busca en el input por id
     const sendId=async()=>{
         setState({
             ...state,

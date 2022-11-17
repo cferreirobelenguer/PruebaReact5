@@ -1,10 +1,9 @@
 import React,{useEffect} from 'react'
-import {useDataSuperman} from '../components/hooks/useDataSuperman'
-
+import { useData } from './hooks/useData'
 
 
 const Superman=()=>{
-    const {data, searchData}=useDataSuperman()
+    const {data, searchData}=useData('Superman')
 
     useEffect(()=>{
         searchData()

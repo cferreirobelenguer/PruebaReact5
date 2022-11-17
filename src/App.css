@@ -3,6 +3,9 @@
 }
 
 /*Estilos de navBar ejercicio 7*/
+.container_home{
+  padding: 20px 20px 100px 20px
+}
 .container_list{
   display:flex;
   flex-direction: column;
