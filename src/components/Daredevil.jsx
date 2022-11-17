@@ -1,22 +1,29 @@
-import React,{useState} from 'react'
-import { heroes } from './data/heroes'
+import React,{useEffect} from 'react'
+import { useDataDardevil } from './hooks/useDataDardevil'
 
 
 const Daredevil=()=>{
-    const [data,setData]=useState(heroes[2])
     
+    const {data, searchData}=useDataDardevil()
+
+    useEffect(()=>{
+        searchData()
+        console.log(data)
+    },[data])
+        
+        console.log(data)
         return(
         
-            <div>
-            <div>
-                <h1>Datos de Superman</h1>
-            </div>
-                        <div>
-                            <h2>Publisher: {data.publisher}</h2>
-                        </div>
-                        <div>
-                            <h2>Characters: {data.characters}</h2>
-                        </div>
+            <div className="container_list">
+                <div>
+                    <h1>Datos de Daredevil</h1>
+                </div>
+                <div>
+                    <h2>Publisher: {data.publisher}</h2>
+                </div>
+                <div>
+                    <h2>Characters: {data.characters}</h2>
+                </div>
             </div>
         )
     

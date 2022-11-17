@@ -7,7 +7,7 @@ const NavBar=()=>{
     return(
         <div>
         <h1>home</h1>
-        <div>
+        <div className="container_nav">
             <ul>
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/batman">Batman</NavLink></li>
