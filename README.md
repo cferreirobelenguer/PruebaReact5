@@ -1,6 +1,6 @@
 # EJERCICIOS DE REACT
 
-## EJERCICIO REACT
+## EJERCICIO 1
 
 ## 1. Crear un componente
 ## 2. Recibir una prop con el año actual
@@ -62,6 +62,7 @@
 
 
 ## EJERCICIO 5 CONSULTAR API BREAKING BAD
+
 ## Crear un custom hook useFetch que pueda utilizarse en cualquier otro componente de peticiones api, pasando la url por parámetro
 ## Crear métodos de paginación dentro del custom hook e implementar en el componente la paginación
 ## Crear un searchBar que busque por id la página que queremos mostrar de datos
@@ -76,3 +77,17 @@
 ## Poner el foco en un input que pide el nombre a través de useRef
 
 ![image](https://user-images.githubusercontent.com/88061350/201964311-5a93ccfd-ea89-45c5-89b0-3db51ce9d116.png)
+
+
+## EJERCICIO 7 CREAR RUTAS CON REACT-ROUTER-DOM
+
+## Instalar react-router-dom
+npm install react-router-dom
+## Crear tres 4 rutas en un NavBar: home, batman, superman y daredevil
+## Crear un archivo js con un objeto literal heroes con los datos de batman, superman y daredevil
+## Home redirige el componente principal
+## Batman muestra los datos de batman correspondientes
+## Superman muestra los datos de superman
+## Daredevil muestra los datos de Daredevil
+## Todos los componentes deben tener un botón de retorno al home
+

@@ -6,6 +6,7 @@ import Contador from './components/Contador'
 import Formulario from './components/Formulario';
 import ApiBreakingBad from './components/ApiBreakingBad';
 import { InputRef } from './components/InputRef';
+import Router from './components/route/Router';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Formulario></Formulario>
       <ApiBreakingBad></ApiBreakingBad>
       <InputRef></InputRef>
+      <Router></Router>
     </div>
   );
 }
