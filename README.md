@@ -100,3 +100,8 @@ npm install react-router-dom
 
 ![image](https://user-images.githubusercontent.com/88061350/202554417-33b051e1-fb5d-4e18-95b0-125307fda99a.png)
 
+## EJERCICIO 8 DE USECALLBACK
+
+### Tenemos un componente padre que comunica con el hijo, el padre tiene un arreglo, crea una función que incrementa el valor del state y le pasa al hijo por props recorriendo el arreglo : el valor y la función de incrementar. En el componente hijo por cada elemento del arreglo se crea un botón que indica el número pasado por props y ejecuta por evento click la función de incrementar. Se pide usar useCallback para que cuando se ejecuta la función incrementar sólo se ejecute la memoria una vez en el renderizado. 
+
+
