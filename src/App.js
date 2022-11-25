@@ -8,6 +8,7 @@ import ApiBreakingBad from './components/ApiBreakingBad';
 import { InputRef } from './components/InputRef';
 import Router from './components/route/Router';
 import Padre from './components/Padre';
+import { Dictionary } from './components/Dictionary';
 
 
 
@@ -31,6 +32,14 @@ function App() {
       <Router></Router>
       <hr></hr>
       <Padre></Padre>
+      <hr></hr>
+      <Dictionary></Dictionary>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }
