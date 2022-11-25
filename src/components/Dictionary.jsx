@@ -1,38 +1,37 @@
-import React,{useState, useEffect} from 'react'
+import React,{useState} from 'react'
+import axios from 'axios'
 
-export const Dictionary=()=>{
+const Dictionary=()=>{
     const [contenido,setContenido]=useState("")
     const [error,setError]=useState("")
     const [isLoading, setIsLoading]=useState(false)
     const [palabra,setPalabra]=useState("")
     const handlerChange=(e)=>{
         setPalabra(e.target.value)
-        console.log(palabra)
+        
     }
     
-    useEffect(()=>{
-        const getData=async(palabra)=>{
-            
-            try{
+    const handlerSubmit=(e)=>{
+                e.preventDefault()
                 setIsLoading(true)
-                console.log(palabra)
-                const res= await fetch("https://api.dictionaryapi.dev/api/v2/entries/en/"+palabra)
-                const data=await res.json()
-                const info=data.meanings[0].definitions[0].definition
-                setContenido(info)
-                setIsLoading(false)
                 
-            }catch(error){
-                setError("Error al procesar")
-            }
-            console.log(contenido)
+                axios.get("https://api.dictionaryapi.dev/api/v2/entries/en/"+palabra)
+                .then(data=>{
+                    setIsLoading(false)
+                    setContenido(data.data[0].meanings[0].definitions[0].definition)
+                    setError("")
+                })
+                .catch((error)=>{
+                    if(error.message.includes('404')){
+                        setContenido("")
+                        setIsLoading(false)
+                        setError("Error")
+                    }
+                })
+                
         }
-        getData(palabra)
-    },[palabra])
 
-    const handlerClick=()=>{
-        console.log("se ejecuta el evento")
-    }
+    
     return(
         <div>
             <div><h1>Free dictionary</h1></div>
@@ -45,13 +44,15 @@ export const Dictionary=()=>{
                 </input>
             </div>
             <div>
-                <button onClick={handlerClick}>Consultar Definición</button>
+                <button onClick={handlerSubmit}>Ver definición</button>
             </div>
             <div>
                     {isLoading && <h2 id="cargando">Cargando...</h2>}
-                    {!isLoading && contenido && <h2 id="contenido">{contenido}</h2>}
                     {!isLoading && error && <h2 id="error">{error}</h2>}
+                    {!isLoading && contenido && <h2 id="contenido">{contenido}</h2>}
+                    
             </div>
         </div>
     )
 }
+export default Dictionary
