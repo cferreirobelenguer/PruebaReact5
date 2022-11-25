@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<div>
+  <div
+    class="inputYear"
+  >
+    <p>
+      <input
+        type="text"
+      />
+    </p>
+  </div>
+  <br />
+  <div
+    class="buttonNext"
+  >
+    <button>
+      Next year
+    </button>
+  </div>
+  <br />
+  <div
+    class="buttonPrevious"
+  >
+    <button>
+      Previous year
+    </button>
+  </div>
+  <br />
+  <div
+    class="buttonYear"
+  >
+    <button>
+      Actual year
+    </button>
+  </div>
+  <br />
+  <div
+    class="actual"
+  >
+    <h1 />
+  </div>
+</div>
+`;

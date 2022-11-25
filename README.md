@@ -50,7 +50,12 @@
 ### Si se pulsa -1 se decrementa
 ![image](https://user-images.githubusercontent.com/88061350/201364671-a391f55e-7367-4376-a6b3-78b31c0423f2.png)
 
-
+### Hacer los siguientes test de comprobación creando el archivo Contador.test.jsx:
+    - Verificar el snapshot
+    - Comprobar que en la prop contador al inicializar el componente se muestra 20 y que ese dato existe
+    - Comprobar que al pulsar el botón +1 se incrementa la variable
+    - Comprobar que al pulsar el botón -1 se decrementa la variable
+    - Verificar el funcionamiento del botón de reset
 ## EJERCICIO 4 CREAR FORMULARIO CON CUSTOM HOOKS
 
 ### Crear un formulario y meter toda su funcionalidad en un custom hook llamado useForm

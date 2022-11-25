@@ -62,7 +62,7 @@ const ChangeReact =(props)=>{
             <br></br>
             <div className="actual">
                 {/*Se muestra data si el resultado no es NaN en caso contrario se muestra una cadena vacía*/}
-                <h1>{!(isNaN(data))?data:""}</h1>
+                <h1 id="valorActual">{!(isNaN(data))?data:""}</h1>
             </div>
         </>
         
