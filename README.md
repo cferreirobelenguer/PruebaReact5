@@ -115,4 +115,3 @@ npm install react-router-dom
 https://dictionaryapi.dev/
 
 ### Crear un input que recoja la palabra que formula el usuario y se muestra la respuesta
-### Hacer testing
