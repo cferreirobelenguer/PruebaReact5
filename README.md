@@ -111,7 +111,13 @@ npm install react-router-dom
 
 ![image](https://user-images.githubusercontent.com/88061350/202718370-abd41231-6715-44dc-93d3-a8127d08a917.png)
 
-## CREAR UN DICCIONARIO CON LA API FREE DICTIONARY 
+## EJERCICIO 9 CREAR UN DICCIONARIO CON LA API FREE DICTIONARY 
 https://dictionaryapi.dev/
 
 ### Crear un input que recoja la palabra que formula el usuario y se muestra la respuesta
+
+![image](https://user-images.githubusercontent.com/88061350/205078208-c6fa1256-e5f9-49f0-8431-c3e833af4e31.png)
+
+![image](https://user-images.githubusercontent.com/88061350/205078305-235986cd-9695-4605-8a4e-df538fbc59fc.png)
+
+## EJERCICIO 10 CREAR UNA TODO LIST CON USE REDUCER

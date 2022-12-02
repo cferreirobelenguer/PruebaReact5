@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 import Year from './components/Year'
 import Title from './components/Title'
 import {useState} from 'react'
@@ -9,12 +9,13 @@ import { InputRef } from './components/InputRef';
 import Router from './components/route/Router';
 import Padre from './components/Padre';
 import Dictionary from './components/Dictionary';
-
-
+import './components/reducer/reducerList'
+import { TodoApp } from './components/TodoApp'
 
 
 function App() {
   const [counter, setCounter]=useState(20)
+  
   return (
     <div className="App">
       <Year/>
@@ -36,6 +37,8 @@ function App() {
       <hr></hr>
       <Dictionary></Dictionary>
       <br></br>
+      <hr/>
+      <TodoApp></TodoApp>
       
     </div>
   );

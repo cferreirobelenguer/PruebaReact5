@@ -32,3 +32,98 @@ a:link, a:visited, a:active {
 a:hover{
   color:rgb(36, 36, 44)
 }
+
+/*Estilos de todoList ejercicio 10*/
+.todo_container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+
+}
+.todo_title{
+  padding: 10px;
+}
+
+.todo_listado{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.todo_list{
+  display:flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(47, 107, 236);
+  opacity: 0.8;
+}
+.listado{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.button_separation{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.todo_form{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonStyle{
+  margin-left: 20px;
+  border-style: solid;
+  border-color:transparent;
+  background-color: rgb(47, 107, 236);
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  color: white;
+}
+.buttonStyle:hover{
+  margin-left: 20px;
+  border-style: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  color: rgb(47, 107, 236);
+  border-style: solid;
+  border-color:rgb(47, 107, 236);
+}
+.borrar{
+  margin-left: 20px;
+  border-style: solid;
+  border-color:transparent;
+  background-color: rgb(236, 85, 47);
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  margin-bottom: 10px;
+}
+.borrar:hover{
+  margin-left: 20px;
+  border-style: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  color: rgb(236, 85, 47);
+  border-style: solid;
+  border-color:rgb(236, 85, 47);
+  margin-bottom: 10px;
+}
