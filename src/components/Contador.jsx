@@ -1,29 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { setIncrement,setDecrement,setReset } from '../store/slices/counter';
 
     const Contador = ({ contador }) => {
-        const [contadorTotal, setContadorTotal] = useState({ contador }.contador);
-        const handlerAdd = () => {
-            console.log(contadorTotal);
-            setContadorTotal(contadorTotal+1)
-        };
-        const handlerRemove = () => {
-            setContadorTotal(contadorTotal-1)
-        };
-        const handlerReset = () => {
-            setContadorTotal(20)
-        };
+        const dispatch=useDispatch()
+        const {counter}=useSelector(state=>state.counter)
+        
     return (
         <>
         <div>
             <h1>COUNTER APP</h1>
         </div>
         <div>
-            <h2>{contadorTotal}</h2>
+            <h2>{counter}</h2>
         </div>
         <div>
-            <button onClick={handlerAdd}>+1</button>
-            <button onClick={handlerRemove}>-1</button>
-            <button onClick={handlerReset}>Reset</button>
+            <button onClick={()=>dispatch(setIncrement())}>+1</button>
+            <button onClick={()=>dispatch(setDecrement())}>-1</button>
+            <button onClick={()=>dispatch(setReset())}>Reset</button>
         </div>
         </>
         );

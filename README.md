@@ -40,6 +40,7 @@
 
 ## Pasar desde el componente App a otro componente creado una variable contador que se inicializa a 20
 ## En el componente creado crear tres botones uno de incremento del contador, otro decremento, y otro reset que vuelve a inicializar la variable a 20
+## Pasar el state a redux mediante slices
 
 ### La variable se inicializa como 20 y si se pulsa reset se inicializa también a 20
 ![image](https://user-images.githubusercontent.com/88061350/201364259-955b50ba-51ba-4dca-9459-864301b3e2bf.png)
@@ -120,4 +121,3 @@ https://dictionaryapi.dev/
 
 ![image](https://user-images.githubusercontent.com/88061350/205078305-235986cd-9695-4605-8a4e-df538fbc59fc.png)
 
-## EJERCICIO 10 CREAR UNA TODO LIST CON USE REDUCER
